@@ -1,0 +1,48 @@
+{
+ "folder": "portfolio/inbox_triage_bot",
+ "slug": "portfolio__inbox_triage_bot",
+ "port": 8114,
+ "title": "Ops Inbox Triage Bot",
+ "one_liner": "Paste an email and get category, urgency, a one-line summary and a suggested route, validated by pydantic, with the routing shown as simulated log lines.",
+ "duration_s": 49.5,
+ "highlight_s": 8.2,
+ "steps": [
+  {
+   "n": 1,
+   "text": "Ops inbox triage: use a sample email",
+   "ok": true,
+   "t": 3.4
+  },
+  {
+   "n": 2,
+   "text": "Triage: category, urgency and the route it would take",
+   "ok": true,
+   "t": 8.0
+  },
+  {
+   "n": 3,
+   "text": "The summary and the simulated routing log; nothing is sent",
+   "ok": true,
+   "t": 13.2
+  },
+  {
+   "n": 4,
+   "text": "Six sample emails, one click",
+   "ok": true,
+   "t": 19.0
+  },
+  {
+   "n": 5,
+   "text": "Triage all six: category, expected label, match, urgency, route",
+   "ok": true,
+   "t": 26.7
+  },
+  {
+   "n": 6,
+   "text": "The batch routing log",
+   "ok": true,
+   "t": 33.5
+  }
+ ],
+ "skipped": []
+}
